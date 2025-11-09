@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>新星系统(NS)联盟</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
@@ -10,84 +10,148 @@
 <body>
 
 <header>
-<nav class="navbar">
+  <nav class="navbar">
     <div class="logo">
-        <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="LOGO" style="height:40px;">
-        新星系统(NS)联盟
+      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="LOGO">
+      新星系统(NS)联盟
     </div>
     <ul class="nav-links">
-        <li><a href="#home-features">首页</a></li>
-        <li><a href="#features">特性</a></li>
-        <li><a href="#products">产品</a></li>
-        <li><a href="#testimonials">评价</a></li>
-        <li><a href="#contact">联系</a></li>
+      <li><a href="#home-features">首页</a></li>
+      <li><a href="#features">特性</a></li>
+      <li><a href="#products">产品</a></li>
+      <li><a href="#testimonials">评价</a></li>
+      <li><a href="#contact">联系</a></li>
     </ul>
-</nav>
+  </nav>
 </header>
 
 <main>
-<section class="hero-features" id="home-features">
+  <!-- HERO + FEATURES -->
+  <section class="hero-features" id="home-features" aria-label="首页英雄区">
     <video class="hero-video" autoplay muted loop playsinline>
-        <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
-        您的浏览器不支持 HTML5 视频。
+      <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
+      您的浏览器不支持 HTML5 视频。
     </video>
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-        <h1>新星系统(NS)联盟</h1>
-        <p>我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。无论您是寻求稳定流量还是高ROI，我们的联盟将助您一臂之力。</p>
-    </div>
+      <h1>新星系统(NS)联盟</h1>
+      <p>我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。</p>
 
-    <div class="features-content" id="features">
+      <div class="features-content" id="features">
         <div class="section-title"><h2>为什么选择我们？</h2></div>
         <div class="features-grid">
-            <div class="feature-card" data-bg="1">
-                <div class="feature-icon"><i class="fas fa-bolt"></i></div>
-                <h3>低成本高回报</h3>
-                <p>接入即享行业最低分成费率，平均ROI高达150%以上</p>
-            </div>
-            <div class="feature-card" data-bg="2">
-                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                <h3>全球认证</h3>
-                <p>所有产品通过PAGCOR、GLI等国际权威机构认证，RNG随机数生成确保公平</p>
-            </div>
-            <div class="feature-card" data-bg="3">
-                <div class="feature-icon"><i class="fas fa-magic"></i></div>
-                <h3>一站式解决方案</h3>
-                <p>财务通道到定制营销，24小时技术支持，让您的上线零门槛</p>
-            </div>
+          <div class="feature-card" data-bg="1">
+            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+            <h3>低成本高回报</h3>
+            <p>接入即享行业最低分成费率，平均ROI高达150%以上</p>
+          </div>
+          <div class="feature-card" data-bg="2">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>全球认证</h3>
+            <p>所有产品通过PAGCOR、GLI等国际权威机构认证，RNG随机数生成确保公平</p>
+          </div>
+          <div class="feature-card" data-bg="3">
+            <div class="feature-icon"><i class="fas fa-magic"></i></div>
+            <h3>一站式解决方案</h3>
+            <p>财务通道到定制营销，24小时技术支持，让您的上线零门槛</p>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- 产品区 -->
-<section class="products" id="products">
-<div class="section-title">
-    <h2>产品服务</h2>
-    <p>探索我们的产品组合，找到最适合您的解决方案</p>
-</div>
-<div class="products-filter">
-    <button class="filter-btn" data-category="cloud">体育竞技</button>
-    <button class="filter-btn" data-category="sports">真人娱乐</button>
-    <button class="filter-btn" data-category="casino">娱乐平台</button>
-    <button class="filter-btn" data-category="mini">小游戏</button>
-</div>
+  <!-- STATS -->
+  <section class="stats" aria-label="统计">
+    <div class="stat-item"><div class="stat-number">1000+</div><div class="stat-label">合作商户</div></div>
+    <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">技术支持</div></div>
+    <div class="stat-item"><div class="stat-number">500K+</div><div class="stat-label">月活跃用户</div></div>
+    <div class="stat-item"><div class="stat-number">99.9%</div><div class="stat-label">系统稳定率</div></div>
+  </section>
 
-<div class="products-grid">
-    <!-- 示例产品1 -->
-    <div class="product-card" data-category="cloud">
-        <div class="product-image"><img src="https://huangguan-crownsports.com/zb_users/upload/2025/07/202507141752479758817941.png" alt="皇冠K线S线"></div>
-        <div class="product-content">
-            <h3>皇冠K线S线</h3>
-            <p>沙巴体育 (Saba Sports)首屈一指的体育博彩平台，覆盖足球、篮球等700+赛事/月。极速赔率更新，最高限额支持大额投注。</p>
-        </div>
-        <button class="select-btn">了解更多</button>
+  <!-- PRODUCTS -->
+  <section class="products" id="products" aria-label="产品">
+    <div class="products-filter" role="toolbar" aria-label="产品筛选">
+      <button class="filter-btn" data-category="cloud">体育竞技</button>
+      <button class="filter-btn" data-category="sports">真人娱乐</button>
+      <button class="filter-btn" data-category="casino">娱乐平台</button>
+      <button class="filter-btn" data-category="mini">小游戏</button>
     </div>
-    <!-- 这里可继续添加其他产品卡片 -->
-</div>
-</section>
 
-<!-- 统计区、评价区、联系表单、页脚等保持原结构 -->
+    <div class="products-grid">
+      <div class="product-card" data-category="cloud">
+        <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%201.jpg?raw=true" alt="体育竞技">
+      </div>
+      <div class="product-card" data-category="sports">
+        <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%202.jpg?raw=true" alt="真人娱乐">
+      </div>
+      <div class="product-card" data-category="casino">
+        <img src="https://via.placeholder.com/1920x1080" alt="娱乐平台">
+      </div>
+      <div class="product-card" data-category="mini">
+        <img src="https://via.placeholder.com/1920x1080" alt="小游戏">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-title"><h2>客户评价</h2><p>他们对我们的服务有何评价</p></div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">新星系统帮助我们快速上线，支持到位，合作非常愉快。</p>
+        <div class="testimonial-author"><div class="author-avatar"><i class="fas fa-user"></i></div><div class="author-name">张先生, 亚洲娱乐公司CEO</div></div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">产品稳定，返佣高，我们团队非常满意。</p>
+        <div class="testimonial-author"><div class="author-avatar"><i class="fas fa-user"></i></div><div class="author-name">李女士, 博彩平台负责人</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-title"><h2>联系我们</h2><p>填写下方信息，我们会尽快联系您</p></div>
+    <div class="contact-container">
+      <form class="contact-form">
+        <div class="form-group"><label>姓名</label><input type="text" placeholder="请输入姓名"></div>
+        <div class="form-group"><label>邮箱</label><input type="email" placeholder="请输入邮箱"></div>
+        <div class="form-group"><label>信息</label><textarea rows="6" placeholder="您的需求或问题"></textarea></div>
+        <button type="submit" class="submit-btn">发送信息</button>
+      </form>
+      <div class="contact-info">
+        <h3>联系信息</h3>
+        <p>邮箱: support@xinxing.com</p>
+        <p>电话: +86 123 4567 890</p>
+        <p>地址: 中国上海市虹口区</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-column">
+      <h3>新星系统</h3>
+      <ul class="footer-links">
+        <li><a href="#home-features">首页</a></li>
+        <li><a href="#features">特性</a></li>
+        <li><a href="#products">产品</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>社交</h3>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2025 新星系统(NS)联盟. 保留所有权利.</div>
+</footer>
 
 <script src="script.js"></script>
 </body>
