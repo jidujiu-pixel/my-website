@@ -64,7 +64,7 @@ main{padding-top:calc(var(--header-h) + 12px)}
   100% {background-position: 0% 50%;}
 }
 
-/* HERO content: centered reliably (flex parent) */
+/* HERO content */
 .hero-content{
   position:relative;z-index:2;max-width:980px;padding:28px 28px 24px;
   display:flex;flex-direction:column;align-items:center;gap:25px;
@@ -73,11 +73,10 @@ main{padding-top:calc(var(--header-h) + 12px)}
 .hero-content h1{font-size:4.2rem;line-height:1.02;margin-bottom:6px}
 .hero-content p{font-size:1.45rem;line-height:1.9;max-width:920px}
 
-/* FEATURES block sits visually within same wrapper but below hero text */
+/* FEATURES block */
 .features-content{
   width:100%;position:relative;z-index:2;padding:28px 5% 80px;background:transparent;
-  margin-top:120px;
-  max-width:1200px;box-sizing:border-box;margin-left:auto;margin-right:auto;
+  margin-top:120px;max-width:1200px;margin-left:auto;margin-right:auto;
 }
 .features-content .section-title{text-align:center;margin-bottom:18px}
 .features-content .section-title h2{font-size:2rem;color:#fff}
@@ -85,7 +84,6 @@ main{padding-top:calc(var(--header-h) + 12px)}
   display:flex;gap:18px;justify-content:center;
   flex-wrap:nowrap;
   overflow-x:auto;
-  -webkit-overflow-scrolling:touch;
 }
 .features-grid::-webkit-scrollbar{height:8px}
 .features-grid::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.12);border-radius:8px}
@@ -176,7 +174,31 @@ main{padding-top:calc(var(--header-h) + 12px)}
 .form-group label{display:block;margin-bottom:6px;font-weight:600;color:#333}
 .form-group input,.form-group textarea{width:100%;padding:10px;border:2px solid #e2e8f0;border-radius:8px;font-size:1rem}
 .submit-btn{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;border:none;padding:12px 16px;border-radius:10px;cursor:pointer;width:100%;font-weight:700}
-.contact-info a{color:#2563eb;text-decoration:underline;}
+
+/* --- CONTACT INFO: 美化 (仅此处修改) --- */
+.contact-info {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.contact-info h3 {margin-bottom:6px;}
+.contact-info a{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  border-radius:10px;
+  color:#0b1220;
+  background:rgba(255,255,255,0.9);
+  box-shadow: 0 6px 18px rgba(11,17,32,0.06);
+  transition:transform .12s, box-shadow .12s, background .12s;
+}
+.contact-info a i{width:20px;text-align:center;color:#2563eb}
+.contact-info a:hover{
+  transform:translateY(-4px);
+  box-shadow: 0 14px 28px rgba(11,17,32,0.12);
+  background:linear-gradient(90deg, rgba(37,99,235,0.06), rgba(37,99,235,0.02));
+}
 
 /* Footer */
 footer{background:#1e293b;color:#fff;padding:40px 5% 24px}
@@ -332,10 +354,12 @@ footer{background:#1e293b;color:#fff;padding:40px 5% 24px}
       </div>
        <div class="contact-info">
         <h3>联系方式</h3>
-        <a href="NovaSystem168@gemail.com">邮箱: NovaSystem168@gemail.com</a>
-        <a href="https://t.me/NovaSystem168">Telegram: @NovaSystem168</a>
-        <a href="https://wa.me/+60 11-2640 6727">Whatsapp： +60 11-2640 6727</a>
+        <!-- 使用你给的联系方式（可跳转）-->
+        <a href="mailto:NovaSystem168@gemail.com" title="发邮件"><i class="fas fa-envelope"></i> 邮箱: NovaSystem168@gemail.com</a>
+        <a href="https://t.me/NovaSystem168" target="_blank" rel="noopener" title="Telegram"><i class="fab fa-telegram"></i> TG账号: https://t.me/NovaSystem168</a>
+        <a href="https://wa.me/601126406727" target="_blank" rel="noopener" title="Whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp: +60 11-2640 6727</a>
       </div>
+    </div>
   </section>
 
 </main>
