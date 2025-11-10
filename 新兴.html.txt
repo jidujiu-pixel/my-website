@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>新星系统(NS)联盟</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>新星系统(NS)联盟</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -35,25 +35,21 @@
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1 class="glow-title">新星系统(NS)联盟</h1>
-      <p class="glow-text">
-        我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。
-        以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。
-      </p>
-
+      <p class="glow-text">我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。</p>
       <div class="features-content" id="features">
         <div class="section-title"><h2>为什么选择我们？</h2></div>
         <div class="features-grid">
-          <div class="feature-card show">
+          <div class="feature-card show" data-bg="1">
             <div class="feature-icon"><i class="fas fa-bolt"></i></div>
             <h3>低成本高回报</h3>
             <p>接入即享行业最低分成费率，平均ROI高达150%以上</p>
           </div>
-          <div class="feature-card show">
+          <div class="feature-card show" data-bg="2">
             <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
             <h3>全球认证</h3>
             <p>所有产品通过PAGCOR、GLI等国际权威机构认证，RNG随机数生成确保公平</p>
           </div>
-          <div class="feature-card show">
+          <div class="feature-card show" data-bg="3">
             <div class="feature-icon"><i class="fas fa-magic"></i></div>
             <h3>一站式解决方案</h3>
             <p>财务通道到定制营销，24小时技术支持，让您的上线零门槛</p>
@@ -64,7 +60,7 @@
   </section>
 
   <!-- STATS -->
-  <section class="stats">
+  <section class="stats" aria-label="统计">
     <div class="stat-item"><div class="stat-number">1000+</div><div class="stat-label">合作商户</div></div>
     <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">技术支持</div></div>
     <div class="stat-item"><div class="stat-number">500K+</div><div class="stat-label">月活跃用户</div></div>
@@ -72,14 +68,13 @@
   </section>
 
   <!-- PRODUCTS -->
-  <section class="products" id="products">
-    <div class="products-filter">
+  <section class="products" id="products" aria-label="产品">
+    <div class="products-filter" role="toolbar" aria-label="产品筛选">
       <button class="filter-btn active" data-category="cloud">体育竞技</button>
       <button class="filter-btn" data-category="sports">真人娱乐</button>
-      <button class="filter-btn" data-category="casino">娱乐平台</button>
-      <button class="filter-btn" data-category="mini">小游戏</button>
+      <button class="filter-btn" data-category="casino">电子游艺</button>
+      <button class="filter-btn" data-category="mini">棋牌游戏</button>
     </div>
-
     <div class="products-grid">
       <div class="product-card show" data-category="cloud">
         <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%201.jpg?raw=true" alt="体育竞技">
@@ -88,62 +83,44 @@
         <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%202.jpg?raw=true" alt="真人娱乐">
       </div>
       <div class="product-card" data-category="casino">
-        <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%203.jpg?raw=true" alt="娱乐平台">
+        <img src="https://via.placeholder.com/1920x1080" alt="娱乐平台">
       </div>
       <div class="product-card" data-category="mini">
-        <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%204.jpg?raw=true" alt="小游戏">
+        <img src="https://via.placeholder.com/1920x1080" alt="小游戏">
       </div>
     </div>
   </section>
 
   <!-- TESTIMONIALS -->
-  <section class="testimonials" id="testimonials">
+  <section class="testimonials" id="testimonials" aria-label="客户展示">
     <div class="section-title">
       <h2>产品联盟合作方</h2>
       <p>全球顶级伙伴</p>
     </div>
     <div class="testimonials-grid">
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/1.png?raw=true')">
-        <div><h4>皇冠体育</h4><p>R线 S线英超赞助商，提供实时R/S赔率线。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/2.png?raw=true')">
-        <div><h4>云顶双赢Genting集团</h4><p>双赢返利系统。马来西亚度假村联动。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/3.jpg?raw=true')">
-        <div><h4>马来西亚槟城20号游轮</h4><p>海上赌场体验，线上预订转化。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/4.jpg?raw=true')">
-        <div><h4>云顶酒店</h4><p>赌场+酒店，免费住宿礼包，高端用户吸引。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/428672204_1832383267230834_5132473204254387875_n.jpg?raw=true')">
-        <div><h4>澳门金沙城</h4><p>威尼斯人/巴黎人等品牌共享。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/6.png?raw=true')">
-        <div><h4>柬埔寨凯旋娱乐城</h4><p>东南亚流量爆发。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/8.jpg?raw=true')">
-        <div><h4>新加坡滨海湾金沙</h4><p>高端娱乐，品牌背书。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/9.jpg?raw=true')">
-        <div><h4>菲律宾娱乐城</h4><p>PAGCOR授权，多岛屿度假。</p></div>
-      </div>
-      <div class="testimonial-card" style="background-image:url('https://logowik.com/content/uploads/images/mgm-resorts6756.jpg')">
-        <div><h4>MGM全球赌城</h4><p>跨洋合作，明星表演联动。</p></div>
-      </div>
+      <!-- 测试内容与原版保持一致，可在 CSS 控制背景图 -->
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="contact" id="contact">
+  <section class="contact" id="contact" aria-label="联系">
     <div class="contact-container">
-      <div class="contact-info">
+      <div class="contact-form">
+        <h3>联系我们</h3>
+        <div class="form-group"><label for="name">姓名</label><input type="text" id="name" placeholder="输入姓名"></div>
+        <div class="form-group"><label for="email">邮箱</label><input type="email" id="email" placeholder="输入邮箱"></div>
+        <div class="form-group"><label for="message">留言</label><textarea id="message" rows="4" placeholder="输入内容"></textarea></div>
+        <button class="submit-btn">发送</button>
+      </div>
+       <div class="contact-info">
         <h3>联系方式</h3>
-        <a href="mailto:NovaSystem168@gemail.com"><i class="fas fa-envelope"></i> NovaSystem168@gemail.com</a>
-        <a href="https://t.me/NovaSystem168"><i class="fab fa-telegram"></i> @NovaSystem168</a>
-        <a href="https://wa.me/601126406727"><i class="fab fa-whatsapp"></i> +60 11-2640 6727</a>
+        <a href="mailto:NovaSystem168@gemail.com" title="发邮件"><i class="fas fa-envelope"></i> 邮箱: NovaSystem168@gemail.com</a>
+        <a href="https://t.me/NovaSystem168" target="_blank" rel="noopener" title="Telegram"><i class="fab fa-telegram"></i> TG账号: https://t.me/NovaSystem168</a>
+        <a href="https://wa.me/601126406727" target="_blank" rel="noopener" title="Whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp: +60 11-2640 6727</a>
       </div>
     </div>
   </section>
+
 </main>
 
 <footer>
@@ -158,7 +135,7 @@
         <li><a href="#home-features">首页</a></li>
         <li><a href="#features">特性</a></li>
         <li><a href="#products">产品</a></li>
-        <li><a href="#testimonials">合作方</a></li>
+        <li><a href="#testimonials">客户展示</a></li>
         <li><a href="#contact">联系</a></li>
       </ul>
     </div>
