@@ -12,7 +12,7 @@
 <header>
   <nav class="navbar">
     <div class="logo">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="LOGO">
+      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO">
       新星系统(NS)联盟
     </div>
     <div class="hamburger" id="hamburger">
