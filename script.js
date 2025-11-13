@@ -17,3 +17,19 @@ filterBtns.forEach(btn => {
     });
   });
 });
+
+// 手机折叠菜单
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+hamburger.addEventListener('click', ()=>{
+  navLinks.classList.toggle('active');
+  hamburger.classList.toggle('open');
+});
+
+// 汉堡动画
+hamburger.addEventListener('click', ()=>{
+  const spans = hamburger.querySelectorAll('span');
+  spans[0].classList.toggle('rotate1');
+  spans[1].classList.toggle('fade');
+  spans[2].classList.toggle('rotate2');
+});
