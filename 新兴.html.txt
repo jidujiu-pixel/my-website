@@ -31,6 +31,7 @@
 </header>
 
 <main>
+<!-- HERO + FEATURES -->
 <section class="hero-features" id="home-features" aria-label="首页英雄区">
   <video class="hero-video" autoplay muted loop playsinline>
     <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
@@ -63,6 +64,7 @@
   </div>
 </section>
 
+<!-- STATS -->
 <section class="stats" aria-label="统计">
   <div class="stat-item"><div class="stat-number">1000+</div><div class="stat-label">合作商户</div></div>
   <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">技术支持</div></div>
@@ -70,6 +72,7 @@
   <div class="stat-item"><div class="stat-number">99.9%</div><div class="stat-label">系统稳定率</div></div>
 </section>
 
+<!-- PRODUCTS -->
 <section class="products" id="products" aria-label="产品">
   <div class="products-filter" role="toolbar" aria-label="产品筛选">
     <button class="filter-btn active" data-category="cloud">体育竞技</button>
@@ -93,6 +96,7 @@
   </div>
 </section>
 
+<!-- TESTIMONIALS -->
 <section class="testimonials" id="testimonials" aria-label="客户展示">
   <div class="section-title">
     <h2>产品联盟合作方</h2>
@@ -129,6 +133,7 @@
   </div>
 </section>
 
+<!-- CONTACT -->
 <section class="contact" id="contact" aria-label="联系">
   <div class="contact-container">
     <div class="contact-form">
