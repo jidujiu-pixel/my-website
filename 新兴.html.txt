@@ -2,17 +2,32 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 <title>新星系统(NS)联盟</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<noscript>
+  <style>
+    .no-js-warning {
+      display: block !important;
+    }
+    .hero-features {
+      background: #667eea;
+    }
+  </style>
+</noscript>
 </head>
-<body>
+<body class="no-js">
+
+<!-- JavaScript禁用警告 -->
+<div class="no-js-warning">
+  您的浏览器可能禁用了JavaScript，部分功能可能无法正常使用。
+</div>
 
 <header>
   <nav class="navbar">
     <div class="logo">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO">
+      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO" onerror="this.style.display='none'">
       新星系统(NS)联盟
     </div>
     <div class="hamburger" id="hamburger">
@@ -33,7 +48,7 @@
 <main>
 <!-- HERO + FEATURES -->
 <section class="hero-features" id="home-features" aria-label="首页英雄区">
-  <video class="hero-video" autoplay muted loop playsinline>
+  <video class="hero-video" autoplay muted loop playsinline onerror="handleVideoError(this)">
     <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
     您的浏览器不支持 HTML5 视频。
   </video>
