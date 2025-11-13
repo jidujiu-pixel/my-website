@@ -1,202 +1,281 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-<title>新星系统(NS)联盟</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<noscript>
-  <style>
-    .no-js-warning {
-      display: block !important;
-    }
-    .hero-features {
-      background: #667eea;
-    }
-  </style>
-</noscript>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新星系统(NS)联盟</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="no-js">
-
-<!-- JavaScript禁用警告 -->
-<div class="no-js-warning">
-  您的浏览器可能禁用了JavaScript，部分功能可能无法正常使用。
-</div>
-
-<header>
-  <nav class="navbar">
-    <div class="logo">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO" onerror="this.style.display='none'">
-      新星系统(NS)联盟
+    <!-- JavaScript禁用警告 -->
+    <div class="no-js-warning">
+        您的浏览器可能禁用了JavaScript，部分功能可能无法正常使用。
     </div>
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home-features">首页</a></li>
-      <li><a href="#features">优势</a></li>
-      <li><a href="#products">产品</a></li>
-      <li><a href="#testimonials">合作集团</a></li>
-      <li><a href="#contact">加入我们</a></li>
-    </ul>
-  </nav>
-</header>
 
-<main>
-<!-- HERO + FEATURES -->
-<section class="hero-features" id="home-features" aria-label="首页英雄区">
-  <video class="hero-video" autoplay muted loop playsinline onerror="handleVideoError(this)">
-    <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
-    您的浏览器不支持 HTML5 视频。
-  </video>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 class="glow-title">新星系统(NS)联盟</h1>
-    <p class="glow-text">我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。</p>
-    <div class="features-content" id="features">
-      <div class="section-title"><h2>为什么选择我们？</h2></div>
-      <div class="features-grid">
-        <div class="feature-card show" data-bg="1">
-          <div class="feature-icon"><i class="fas fa-bolt"></i></div>
-          <h3>低成本高回报</h3>
-          <p>接入即享行业最低分成费率，平均ROI高达150%以上</p>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO" onerror="this.style.display='none'">
+                新星系统(NS)联盟
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home-features">首页</a></li>
+                <li><a href="#features">优势</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#testimonials">合作集团</a></li>
+                <li><a href="#contact">加入我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO + FEATURES -->
+        <section class="hero-features" id="home-features" aria-label="首页英雄区">
+            <video class="hero-video" autoplay muted loop playsinline onerror="handleVideoError(this)">
+                <source src="https://cdn.pixabay.com/video/2020/11/07/55674-503971699_large.mp4" type="video/mp4">
+                您的浏览器不支持 HTML5 视频。
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="glow-title">新星系统(NS)联盟</h1>
+                <p class="glow-text">我们是亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，我们汇聚全球知名品牌游戏，确保平台的安全与公平性。7×24H官方客服。</p>
+                
+                <!-- 新增：官方网站跳转按钮 -->
+                <a href="https://您的官方网站链接" target="_blank" class="official-website-btn">
+                    <i class="fas fa-external-link-alt"></i>
+                    即将隆重上线
+                </a>
+                
+                <div class="features-content" id="features">
+                    <div class="section-title"><h2>为什么选择我们？</h2></div>
+                    <div class="features-grid">
+                        <div class="feature-card show" data-bg="1">
+                            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                            <h3>低成本高回报</h3>
+                            <p>接入即享行业最低分成费率，平均ROI高达150%以上</p>
+                        </div>
+                        <div class="feature-card show" data-bg="2">
+                            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h3>全球认证</h3>
+                            <p>所有产品通过PAGCOR、GLI等国际权威机构认证，RNG随机数生成确保公平</p>
+                        </div>
+                        <div class="feature-card show" data-bg="3">
+                            <div class="feature-icon"><i class="fas fa-magic"></i></div>
+                            <h3>一站式解决方案</h3>
+                            <p>财务通道到定制营销，24小时技术支持，让您的上线零门槛</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats" aria-label="统计">
+            <div class="stat-item"><div class="stat-number">1000+</div><div class="stat-label">合作商户</div></div>
+            <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">技术支持</div></div>
+            <div class="stat-item"><div class="stat-number">500K+</div><div class="stat-label">月活跃用户</div></div>
+            <div class="stat-item"><div class="stat-number">99.9%</div><div class="stat-label">系统稳定率</div></div>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="products" id="products" aria-label="产品">
+            <div class="products-filter" role="toolbar" aria-label="产品筛选">
+                <button class="filter-btn active" data-category="cloud">体育竞技</button>
+                <button class="filter-btn" data-category="sports">真人娱乐</button>
+                <button class="filter-btn" data-category="casino">合作优势</button>
+                <button class="filter-btn" data-category="mini">区块链</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card show" data-category="cloud">
+                    <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%201.jpg?raw=true" alt="体育竞技">
+                </div>
+                <div class="product-card" data-category="sports">
+                    <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%202.jpg?raw=true" alt="真人娱乐">
+                </div>
+                <div class="product-card" data-category="casino">
+                    <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%203.png?raw=true" alt="合作优势">
+                </div>
+                <div class="product-card" data-category="mini">
+                    <img src="https://github.com/jidujiu-pixel/my-website/blob/main/3415.png?raw=true" alt="区块链">
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials" id="testimonials" aria-label="客户展示">
+            <div class="section-title">
+                <h2>产品联盟合作方</h2>
+                <p>全球顶级伙伴</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/1.png?raw=true')">
+                    <div><h4>皇冠体育</h4><p>R线 S线英超赞助商，提供实时R/S赔率线。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/2.png?raw=true')">
+                    <div><h4>云顶双赢Genting集团</h4><p>双赢返利系统。马来西亚度假村联动，VIP会员导入。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/3.jpg?raw=true')">
+                    <div><h4>马来西亚槟城20号游轮Genting Dream邮轮</h4><p>海上赌场体验。主题游轮活动，线上预订转化。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/4.jpg?raw=true')">
+                    <div><h4>云顶酒店全球最大高原度假村</h4><p>赌场+酒店。 免费住宿礼包，高端用户吸引。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/428672204_1832383267230834_5132473204254387875_n.jpg?raw=true')">
+                    <div><h4>澳门金沙城旗下所有酒店Sands集团</h4><p>威尼斯人/巴黎人等。路氹金光大道接入，百万会员共享。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/6.png?raw=true')">
+                    <div><h4>柬埔寨凯旋娱乐城西哈努克港凯旋城</h4><p>亚洲新兴热点。低门槛投资，东南亚流量爆发。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/8.jpg?raw=true')">
+                    <div><h4>新加坡滨海湾金沙</h4><p>标志性三塔建筑，高端娱乐。国际游客导入，品牌背书。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/9.jpg?raw=true')">
+                    <div><h4>菲律宾娱乐城集团</h4><p>PAGCOR授权，多岛屿度假。</p></div>
+                </div>
+                <div class="testimonial-card" style="background-image:url('https://logowik.com/content/uploads/images/mgm-resorts6756.jpg')">
+                    <div><h4>拉斯维加斯MGM全球赌城代表</h4><p>明星表演联动。跨洋合作。</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系区域 -->
+        <section class="contact" id="contact" aria-label="联系">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>立即加入我们</h2>
+                    <p>开启您的娱乐平台事业，与全球顶级伙伴共创辉煌</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info-card">
+                        <h3>联系我们</h3>
+                        <div class="contact-methods">
+                            <a href="mailto:NovaSystem168@gemail.com" class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>邮箱联系</h4>
+                                    <p>NovaSystem168@gemail.com</p>
+                                </div>
+                            </a>
+                            <a href="https://t.me/NovaSystem168" target="_blank" class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-telegram"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Telegram</h4>
+                                    <p>@NovaSystem168</p>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/601126406727" target="_blank" class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>WhatsApp</h4>
+                                    <p>+60 11-2640 6727</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form-card">
+                        <h3>发送消息</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">您的姓名</label>
+                                <input type="text" id="name" placeholder="请输入您的姓名" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">电子邮箱</label>
+                                <input type="email" id="email" placeholder="请输入您的邮箱" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">合作意向</label>
+                                <textarea id="message" rows="5" placeholder="请简要描述您的合作需求..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">立即咨询合作</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页尾区域 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <img src="https://github.com/jidujiu-pixel/my-website/blob/main/photo_2025-11-06_20-06-28-removebg-preview.png?raw=true" alt="新星系统联盟LOGO" onerror="this.style.display='none'">
+                    <span>新星系统(NS)联盟</span>
+                </div>
+                <p class="brand-description">
+                    亚洲领先的娱乐平台提供商，致力于通过平台联动将顶级体育博彩、真人娱乐、老虎机、棋牌和小游戏无缝整合。以官方合作为核心，确保平台的安全与公平性。
+                </p>
+                <div class="brand-social">
+                    <a href="#" class="social-link" aria-label="微博">
+                        <i class="fab fa-weibo"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>快速导航</h3>
+                <ul class="footer-links">
+                    <li><a href="#home-features">首页</a></li>
+                    <li><a href="#features">核心优势</a></li>
+                    <li><a href="#products">产品服务</a></li>
+                    <li><a href="#testimonials">合作集团</a></li>
+                    <li><a href="#contact">加入我们</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>产品服务</h3>
+                <ul class="footer-links">
+                    <li><a href="#">体育竞技</a></li>
+                    <li><a href="#">真人娱乐</a></li>
+                    <li><a href="#">合作优势</a></li>
+                    <li><a href="#">区块链</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>联系信息</h3>
+                <div class="contact-mini">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>NovaSystem168@gemail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <span>@NovaSystem168</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+60 11-2640 6727</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>7×24小时客服支持</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="feature-card show" data-bg="2">
-          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-          <h3>全球认证</h3>
-          <p>所有产品通过PAGCOR、GLI等国际权威机构认证，RNG随机数生成确保公平</p>
+        <div class="footer-bottom">
+            &copy; 2025 新星系统(NS)联盟. 保留所有权利. | 专业娱乐平台解决方案提供商
         </div>
-        <div class="feature-card show" data-bg="3">
-          <div class="feature-icon"><i class="fas fa-magic"></i></div>
-          <h3>一站式解决方案</h3>
-          <p>财务通道到定制营销，24小时技术支持，让您的上线零门槛</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </footer>
 
-<!-- STATS -->
-<section class="stats" aria-label="统计">
-  <div class="stat-item"><div class="stat-number">1000+</div><div class="stat-label">合作商户</div></div>
-  <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">技术支持</div></div>
-  <div class="stat-item"><div class="stat-number">500K+</div><div class="stat-label">月活跃用户</div></div>
-  <div class="stat-item"><div class="stat-number">99.9%</div><div class="stat-label">系统稳定率</div></div>
-</section>
-
-<!-- PRODUCTS -->
-<section class="products" id="products" aria-label="产品">
-  <div class="products-filter" role="toolbar" aria-label="产品筛选">
-    <button class="filter-btn active" data-category="cloud">体育竞技</button>
-    <button class="filter-btn" data-category="sports">真人娱乐</button>
-    <button class="filter-btn" data-category="casino">合作优势</button>
-    <button class="filter-btn" data-category="mini">区块链</button>
-  </div>
-  <div class="products-grid">
-    <div class="product-card show" data-category="cloud">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%201.jpg?raw=true" alt="体育竞技">
-    </div>
-    <div class="product-card" data-category="sports">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%202.jpg?raw=true" alt="真人娱乐">
-    </div>
-    <div class="product-card" data-category="casino">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/%E7%BB%84%203.png?raw=true" alt="合作优势">
-    </div>
-    <div class="product-card" data-category="mini">
-      <img src="https://github.com/jidujiu-pixel/my-website/blob/main/3415.png?raw=true" alt="区块链">
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials" id="testimonials" aria-label="客户展示">
-  <div class="section-title">
-    <h2>产品联盟合作方</h2>
-    <p>全球顶级伙伴</p>
-  </div>
-  <div class="testimonials-grid">
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/1.png?raw=true')">
-      <div><h4>皇冠体育</h4><p>R线 S线英超赞助商，提供实时R/S赔率线。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/2.png?raw=true')">
-      <div><h4>云顶双赢Genting集团</h4><p>双赢返利系统。马来西亚度假村联动，VIP会员导入。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/3.jpg?raw=true')">
-      <div><h4>马来西亚槟城20号游轮Genting Dream邮轮</h4><p>海上赌场体验。主题游轮活动，线上预订转化。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/4.jpg?raw=true')">
-      <div><h4>云顶酒店全球最大高原度假村</h4><p>赌场+酒店。 免费住宿礼包，高端用户吸引。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/428672204_1832383267230834_5132473204254387875_n.jpg?raw=true')">
-      <div><h4>澳门金沙城旗下所有酒店Sands集团</h4><p>威尼斯人/巴黎人等。路氹金光大道接入，百万会员共享。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/6.png?raw=true')">
-      <div><h4>柬埔寨凯旋娱乐城西哈努克港凯旋城</h4><p>亚洲新兴热点。低门槛投资，东南亚流量爆发。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/8.jpg?raw=true')">
-      <div><h4>新加坡滨海湾金沙</h4><p>标志性三塔建筑，高端娱乐。国际游客导入，品牌背书。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://github.com/jidujiu-pixel/my-website/blob/main/video/9.jpg?raw=true')">
-      <div><h4>菲律宾娱乐城集团</h4><p>PAGCOR授权，多岛屿度假。</p></div>
-    </div>
-    <div class="testimonial-card" style="background-image:url('https://logowik.com/content/uploads/images/mgm-resorts6756.jpg')">
-      <div><h4>拉斯维加斯MGM全球赌城代表</h4><p>明星表演联动。跨洋合作。</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="contact" id="contact" aria-label="联系">
-  <div class="contact-container">
-    <div class="contact-form">
-      <h3>联系我们</h3>
-      <div class="form-group"><label for="name">姓名</label><input type="text" id="name" placeholder="输入姓名"></div>
-      <div class="form-group"><label for="email">邮箱</label><input type="email" id="email" placeholder="输入邮箱"></div>
-      <div class="form-group"><label for="message">留言</label><textarea id="message" rows="4" placeholder="输入内容"></textarea></div>
-      <button class="submit-btn">发送</button>
-    </div>
-     <div class="contact-info">
-      <h3>联系方式</h3>
-      <a href="mailto:NovaSystem168@gemail.com" title="发邮件"><i class="fas fa-envelope"></i> 邮箱: NovaSystem168@gemail.com</a>
-      <a href="https://t.me/NovaSystem168" target="_blank" rel="noopener" title="Telegram"><i class="fab fa-telegram"></i> TG账号: https://t.me/NovaSystem168</a>
-      <a href="https://wa.me/601126406727" target="_blank" rel="noopener" title="Whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp: +60 11-2640 6727</a>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer>
-  <div class="footer-content">
-    <div class="footer-column">
-      <h3>关于我们</h3>
-      <p>新星系统(NS)联盟，领先的娱乐整合平台提供商</p>
-    </div>
-    <div class="footer-column">
-      <h3>快速链接</h3>
-      <ul class="footer-links">
-        <li><a href="#home-features">首页</a></li>
-        <li><a href="#features">优势</a></li>
-        <li><a href="#products">产品</a></li>
-        <li><a href="#testimonials">合作集团</a></li>
-        <li><a href="#contact">加入我们</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <h3>关注我们</h3>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-weibo"></i></a>
-        <a href="#"><i class="fab fa-telegram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">&copy; 2025 新星系统(NS)联盟. 版权所有.</div>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
